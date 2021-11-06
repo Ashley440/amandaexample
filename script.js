@@ -4,7 +4,7 @@ function myfunc(){
     
     //left.style.backgroundImage="url('res/tuxpi.com.1635941685.jpg')";
     if (x===0){
-        left.innerHTML=`<iframe src="res/resume.pdf" height="500px" width="100%" title="MyResume"></iframe>`;
+        left.innerHTML=`<object data="res/resume.pdf" type="application/pdf" height="500px" width="80%" title="MyResume"></object>`;
         x++;
     }
     else{
